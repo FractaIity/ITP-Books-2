@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=College
+comment0.text=\r\n\ The\ college\ class\ creates\ a\ new\ college\ with\ the\ specified\ number\ of\ students\ and\ number\ of\ books,\r\n\ creating\ an\ array\ for\ students\ and\ creating\ a\ new\ library\ which\ also\ creates\ an\ array\ of\ books\r\n\ The\ methods\ in\ this\ class\ then\ describe\ the\ state\ of\ the\ college\ and\ library,\ the\ next\ step\ method\r\n\ selects\ a\ random\ student\ and\ makes\ them\ "study"\ by\ taking\ out\ a\ book\ or\ reading\ a\ chapter\ of\ their\ book\ until\r\n\ the\ college\ has\ no\ students\ left\r\n\ @author\ Louis\ Pike\ \r\n\ @version\ 05/11/2019\r\n
+comment1.params=numOfStudents\ numOfBooks
+comment1.target=College(int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ College\r\n\ @param\ numOfStudents\ The\ number\ of\ students\ in\ the\ college\r\n\ @param\ numOfBooks\ The\ number\ of\ books\ for\ the\ library\ class\r\n
+comment2.params=
+comment2.target=void\ describe()
+comment2.text=-\r\n\ Describes\ the\ current\ state\ of\ the\ college\ and\ then\ calls\ on\ the\ describe\ method\ from\ the\ library\r\n
+comment3.params=
+comment3.target=void\ nextStep()
+comment3.text=\ \r\n\ \ \ Next\ step\ runs\ if\ there\ are\ students\ left\ in\ the\ students\ array,\ it\ calls\ upon\ the\ finishedStudies\ method\ in\ the\ Student\ class,\ if\ it\ returns\ true\r\n\ \ \ then\ removes\ the\ student\ from\ the\ array,\ else\ it\ calls\ on\ the\ study\ method\ from\ the\ Student\ class\r\n
+comment4.params=nSteps
+comment4.target=void\ runCollege(int)
+comment4.text=\ \r\n\ \ \ runCollege\ prints\ out\ the\ number\ of\ steps,\ describes\ the\ state\ of\ the\ college\ and\ the\ calls\ nextStep\r\n\ \ \ this\ is\ repeated\ nSteps\ times.\r\n\ \ \ @param\ nSteps\ The\ number\ of\ times\ that\ nextStep\ is\ executed\r\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment5.text=\ \r\n\ \ \ static\ void\ main\ string\ args\r\n\ \ \ This\ is\ to\ make\ the\ program\ standalone,\ parses\ the\ values\ for\ each\ int\ needed\ to\ create\ the\ College\ class\ and\ how\ many\ steps\ to\ do\ and\ then\r\n\ \ \ runs\ the\ college\r\n
+numComments=6

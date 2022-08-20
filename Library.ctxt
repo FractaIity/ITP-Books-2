@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Library
+comment1.params=numOfBooks
+comment1.target=Library(int)
+comment2.params=
+comment2.target=LibraryCard\ issueCard()
+comment3.params=card
+comment3.target=TextBook\ borrowBook(LibraryCard)
+comment4.params=book
+comment4.target=void\ returnBook(TextBook)
+comment5.params=
+comment5.target=void\ describe()
+numComments=6

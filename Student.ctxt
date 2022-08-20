@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Student
+comment0.text=\r\n\ The\ Student\ class\ is\ responsible\ for\ creating\ Student\ objects\ using\ a\ name\ and\ library\ assigned\ to\ it,\ along\ with\ calling\ on\ the\ Library\ class'\ issue\ card\r\n\ to\ assign\ the\ student\ a\ LibraryCard\ element,\ it\ also\ assigns\ the\ student\ to\ hold\ a\ TextBook\ element.\r\n\ The\ methods\ then\ allow\ the\ user\ to\ see\ if\ the\ student\ has\ finished\ their\ studies\ by\ checking\ if\ they\ hold\ a\ book\ currently\ and\ the\ status\ of\ their\ library\ card\r\n\ The\ study\ method\ checks\ if\ the\ Student\ already\ has\ a\ book\ and\ if\ not\ assigns\ them\ one\ and\ makes\ them\ study\ it.\ The\ describe\ method\ describes\ the\ status\ of\ the\r\n\ current\ Student\ object\r\n\r\n\ @author\ Louis\ Pike\r\n\ @version\ 03/11/2019\r\n
+comment1.params=name\ library
+comment1.target=Student(java.lang.String,\ Library)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Student,\ creates\ Student\ with\ a\ name,\ assigns\ a\ Library\ class\ and\ LibraryCard\ class\ and\ set\ the\ book\ to\ null.\r\n\ @param\ name\ The\ name\ for\ the\ student\r\n\ @param\ library\ The\ library\ for\ the\ student\r\n\ \r\n
+comment2.params=
+comment2.target=boolean\ finishedStudies()
+comment2.text=\r\n\ finishedStudies\ check\ if\ the\ student's\ library\ card\ has\ expired\ by\ calling\ on\ the\ expired\ method\ from\ the\ LibraryCard\ class\ and\ if\ the\ student\ has\ a\ \r\n\ current\ book.\ Needs\ book\ to\ be\ null\ and\ the\ library\ card\ to\ be\ expired\ to\ be\ true,\ else\ false.\r\n\ @return\ boolean\ result\ of\ stuCard.expired\r\n\ \r\n
+comment3.params=
+comment3.target=void\ study()
+comment3.text=\r\n\ \ study\ checks\ if\ the\ student\ has\ a\ book,\ if\ not\ it\ borrows\ one\ using\ the\ borrowBook\ method\ from\ the\ Library\ class.\ If\ the\ student\ has\ a\ book\ it\ uses\ the\ readNextChapter\ method\ from\ the\ TextBook\ Class\r\n\ if\ the\ book\ is\ finished\ it\ calls\ the\ closeBook\ method\ from\ the\ TextBook\ class\r\n
+comment4.params=
+comment4.target=void\ describe()
+comment4.text=\r\n\ Describe\ tells\ the\ user\ the\ current\ state\ of\ the\ student\ object,\ letting\ the\ user\ know\ the\ students\ name,\ if\ they\ have\ a\ book\ and\ the\ status\ of\ their\r\n\ library\ card\r\n
+numComments=5
